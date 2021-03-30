@@ -11,7 +11,7 @@ steps:
     mavenAuthenticateFeed: false
     sonarQubeRunAnalysis: false
 
-- bash: unlink ./simple-fail/simple-parent/child/src/test/resources
+- bash: unlink ./simple-parent/child/src/test/resources
 
 - task: PublishBuildArtifacts@1
   inputs:
